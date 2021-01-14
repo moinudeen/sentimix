@@ -29,5 +29,7 @@ cd src/
 uvicorn api.main:app --reload
 ```
 
-The model is deployed by using FastAPI and uvicorn. Go to `http://127.0.0.1:8000/docs` to see api documentation. For Simplicity, only the Logistic regression model has been uploaded to this repo. 
+The model is deployed by using FastAPI and uvicorn. Go to `http://127.0.0.1:8000/docs` to see api documentation. 
+![API Docs](docs.png)
+For Simplicity, only the Logistic regression model has been uploaded to this repo. 
 You can update the api endpoint to point to your own trained model by changing the path value in `src/api/model_registry.json`
