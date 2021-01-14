@@ -1,0 +1,14 @@
+{
+    "sentimix_logistic_regression" : {
+        "id": 1,
+        "path": "../weights/sentimix_logistic_regression.joblib",
+        "type": "sklearn",
+        "labels": ["negative", "neutral", "positive"]
+    },
+    "sentimix_distilbert" : {
+        "id": 2,
+        "path": "../weights/sentimix_distilbert",
+        "type": "transformers",
+        "labels": ["negative", "neutral", "positive"]
+    }
+}
